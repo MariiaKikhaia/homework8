@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.columns-float-margin > div {
+  background-color: gray;
+  width: calc(33.3333% - 20px);
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
