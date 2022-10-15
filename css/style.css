@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.columns-inline > div {
+  background-color: gray;
+  display: inline-block;
+  width: calc(33.3333% - 23px);
+  height: 100px;
+  margin: 10px;
+}
